@@ -1,6 +1,5 @@
 #include <iostream>
 #include <functional>
-
 class base1
 {
 public:
@@ -81,12 +80,12 @@ class derived3 : public Vbase1,public base2
 class derived4 :  public Vbase1, public Vbase2
 {
 };
-class virtualsizer : public Vbase1,public Vbase2,public Vbase3, public Vbase4
+class virtualsizer :virtual public Vbase1,virtual public Vbase2
 {
 };
 
 
-void main()
+int main()
 {
     base1 b1;
     base2 b2;
@@ -140,6 +139,6 @@ void main()
     std::function<void(base1&)> ttt = &base1::base;
     
     
-    
     int end = 999;
+    return 0;
 }

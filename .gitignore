@@ -3,3 +3,13 @@
 ################################################################################
 
 /.vs/issue_s
+/test_5/x64/Debug
+/Thread_Test_and_error/x64/Debug
+/Thread_Test_and_error/x64/Release
+/Thread_var_sync/x64
+/Critical_Section/x64/Debug
+/effective_c++_item39/x64/Debug
+/l and r vallue/x64/Debug
+/Mutex_test/x64
+/pointer_size/x64/Debug
+/ref/x64/Debug
